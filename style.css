@@ -1,12 +1,25 @@
 body {
     font-family: sans-serif;
+    background-color: gray;
 }
 nav a{
-background-color: orange;
-text-emphasis-color: ;
+    background-color: rgb(102, 91, 29);
+    color: white;
 
 }
-
+nav{
+    text-align: center;
+    }
 nav a:hover{
-background-color: blue;
+    background-color: blue;
+}
+main{
+    text-align: center;
+}
+main img{
+    height: 50%;
+    width: 50%;
+}
+p::before{
+    border: 1px dotted white;
 }
