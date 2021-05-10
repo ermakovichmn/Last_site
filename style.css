@@ -1,4 +1,12 @@
 body {
     font-family: sans-serif;
 }
+nav a{
+background-color: orange;
+text-emphasis-color: ;
 
+}
+
+nav a:hover{
+background-color: blue;
+}
